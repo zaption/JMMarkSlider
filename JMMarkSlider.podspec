@@ -7,7 +7,7 @@ Pod::Spec.new do |s|
   s.homepage = 'https://github.com/joamafer/JMMarkSlider.git'
   s.social_media_url = 'http://twitter.com/jomafer86'
   s.authors  = { 'Jose Martinez' => 'joamafer@gmail.com' }
-  s.source   = { :git => 'https://github.com/joamafer/JMMarkSlider.git', :tag => "1.0" }
+  s.source   = { :git => 'https://github.com/zaption/JMMarkSlider.git', :commit => "b2ece6dc0f009c7328f84d531c5bb42b908d2bc3" }
   s.requires_arc = true
 
   s.ios.deployment_target = '7.0'
