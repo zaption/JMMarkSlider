@@ -1,27 +1,18 @@
-{
-  "name": "JMMarkSlider",
-  "version": "1.0",
-  "summary": "Fully customizable slider that allows you to set marks on it.",
-  "description": "Fully customizable slider that allows you to set marks on it. You can set the color of the bar, marks and handler, the width of the marks and even an image for the handler.",
-  "homepage": "https://github.com/joamafer/JMMarkSlider.git",
-  "screenshots": "http://desarrolloios.es/wp-content/uploads/2014/07/JMMarkSlider.png",
-  "license": "MIT",
-  "authors": {
-    "Jose Martinez": "joamafer@gmail.com"
-  },
-  "social_media_url": "http://twitter.com/jomafer86",
-  "platforms": {
-    "ios": "7.0"
-  },
-  "source": {
-    "git": "https://github.com/joamafer/JMMarkSlider.git",
-    "tag": "1.0"
-  },
-  "source_files": [
-    "Classes",
-    "Classes/*.{h,m}"
-  ],
-  "exclude_files": "Classes/Exclude",
-  "frameworks": "CoreGraphics",
-  "requires_arc": true
-}
+
+Pod::Spec.new do |s|
+  s.name     = 'JMMarkSlider'
+  s.version  = '1.0'
+  s.license  = 'MIT'
+  s.summary  = 'Fully customizable slider that allows you to set marks on it.'
+  s.homepage = 'https://github.com/joamafer/JMMarkSlider.git'
+  s.social_media_url = 'http://twitter.com/jomafer86'
+  s.authors  = { 'Jose Martinez' => 'joamafer@gmail.com' }
+  s.source   = { :git => 'https://github.com/joamafer/JMMarkSlider.git', :tag => "1.0" }
+  s.requires_arc = true
+
+  s.ios.deployment_target = '7.0'
+
+  s.source_files = ['Classes', 'Classes/*.{h,m}']
+  s.exclude_files = 'Classes/Exclude'
+  s.frameworks = 'CoreGraphics'
+end
